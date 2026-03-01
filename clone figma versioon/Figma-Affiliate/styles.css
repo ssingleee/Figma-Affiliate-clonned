@@ -1,0 +1,1216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.raleway-uniquifier {
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.bitter-uniquifier {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  width: 1440px;          
+  margin: 0 auto;         
+  overflow-x: hidden;
+  background: #fff;
+}
+
+img {
+  display: block;
+ }
+
+
+.top-navigation {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 1px 0 #E6E6E6;
+}
+
+.navigation-wrapper {
+  width: 1440px;
+  height: 85px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-left: 70px;
+}
+
+.site-logo img {
+  width: 155px;
+}
+
+.navigation-links {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  gap: 32px;
+}
+
+.navigation-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #111;
+  font-family: 'Raleway';
+  font-size: 14px;
+}
+
+.navigation-link img {
+  width: 20px;
+}
+
+.account-action {
+  margin-left: auto;
+  margin-right: 110px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #111;
+  font-family: 'Raleway';
+  font-size: 14px;
+}
+
+.account-action img {
+  width: 32px;
+}
+
+
+.affiliate-template-overview {
+  padding: 20px 0 30px; 
+
+  transform: translateX(-40px); 
+}
+
+.template-introduction {
+  position: relative;
+  width: 1150px;
+  height: 486px;
+  margin: 0 auto;
+  padding: 44px 70px;
+  background: #e9f0f4;
+  border-radius: 17px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.template-paragraphe {
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #1f9d55;
+  margin-top: 20px;
+
+  
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: 157px;
+}
+
+.template-main-message {
+   font-family: 'Bitter';
+  font-size: 50px;
+  line-height: 1.15;
+  font-weight: 400;
+  color: #0f2a1d;
+  max-width: 520px;
+  margin-left: auto;
+}
+
+.template-paragraphq {
+   font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  max-width: 474px;
+  margin-left: 505px;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 161px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: 320px;
+  margin-top: 10px;
+}
+
+.template-purchase-action {
+  display: flex;         
+  align-items: center;           
+  justify-content: center;       
+  padding: 13px 26px;
+  width: 161px;
+  height: 50px;
+  background: #1f9d55;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Raleway' ;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 8px;
+  white-space: nowrap;          
+  transition: 0.2s ease;
+}
+
+
+.template-purchase-action:hover {
+  background: #178747;
+}
+
+.ETAS {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  height: 386px;
+}
+
+.affiliate-template-overview::after {
+  content: "";
+  display: block;
+  margin: 26px auto 0;
+  width: 1440px;
+  border-bottom: 2px dashed #c8d2cf;
+}
+
+
+.blog-section {
+  width: 1140px;
+  margin: -40px auto 0;
+  padding: 40px 0;
+
+  transform: translateX(-40px); 
+}
+
+.blog-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.blog-title {
+  font-family: 'Bitter' ;
+  font-size: 46px;
+  font-weight: 400;
+  color: #1c2b24;
+  margin-bottom: 20px;
+}
+
+.blog-layout {
+  display: flex;
+  gap: 10px;
+}
+
+
+.blog-main {
+  width: 720px;
+}
+
+.blog-main img {
+  width: 555px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 28px;
+}
+
+.blog-main h3 {
+  font-family: 'Bitter' ;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.blog-main p {
+  font-family: 'Raleway' ;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+.blog-side {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-side-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.blog-side-item img {
+  width: 245px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.blog-side-item h4 {
+  font-family: 'Raleway' ;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #1c2b24;
+  max-width: 280px;
+
+}
+
+
+.blog-footer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.blog-footer a {
+  font-family: 'Raleway' ;
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 400;
+  
+}
+
+.blog-footer a:hover {
+  color: green;
+}
+
+
+.lawncare-product-recommendations {
+  display: flex;               
+  width:1150px;
+  height:112px;        
+  
+
+  background: url(images/background1.png);  
+  padding: 22px 32px;          
+  margin-top: 40px;
+  margin-left: 105px;               
+  border-radius: 8px;         
+}
+
+
+
+.lawncare-products-visual {
+  margin-top: 8px;
+  width: 50px;                  
+  height: 50px;                  
+  margin-right: 20px;           
+}
+
+
+
+.lawncare-products-message {
+  margin-top: 16px;
+  flex-grow: 1;                  
+  font-family: 'Bitter';
+  font-size: 28px;             
+  color: #2f2f2f;                
+}
+
+
+
+.site-linke {
+  display: flex;           
+  align-items: center;            
+  justify-content: center;        
+  margin-top: 8px;
+  margin-right: 8px;
+  background-color: #2f9e44;     
+  color: #ffffff;               
+  text-decoration: none;        
+  width: 111px;
+  height: 52px;
+  padding: 18px 22px;            
+  font-family: 'Raleway';
+  font-size: 15px;              
+  font-weight: 400;              
+  border-radius: 6px;            
+  flex-wrap: nowrap;            
+  transition: 0.2s ease;         
+}
+
+
+.site-linke:hover {
+  background-color: #268a3b;    
+}
+
+
+
+.product-review-updates {
+  width: 1440px;        
+  margin-left: 105px;
+  margin-bottom: 60px;
+   
+
+}
+
+
+
+.product-review-heading {
+   font-family: 'Bitter';
+  font-size: 36px;      
+  font-weight: 400;     
+  margin-bottom: 40px; 
+  margin-top: 40px;
+  width: 4px;
+  height: 40px;
+  white-space: nowrap;
+}
+
+
+
+
+
+.reviewed-product-list {
+  
+  
+  display: flex;        
+  gap: 40px;            
+  
+  
+}
+
+
+.lawnmower-product-review,
+.fertilizer-product-review,
+.hedge-clippers-product-review {
+  width: 357px;             
+  height: 371px;
+  background-color: #f3f4f3;  
+         
+  overflow: hidden;          
+}
+
+
+.lawnmower-product-visual,
+.fertilizer-product-visual,
+.hedge-clippers-product-visual {
+  width: 357px;          
+  height: 200px;        
+  object-fit: cover;   
+  display: block;      
+}
+
+
+
+
+
+.product-review-updates .template-paragraph:first-of-type {
+  
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+  margin: 16px 20px 0;
+}
+
+
+.lawnmower-product-name,
+.fertilizer-product-name,
+.hedge-clippers-product-name {
+  font-family: 'Bitter';
+  font-size: 30px;      
+  font-weight: 400;    
+  margin-top: 20px;  
+  
+  margin-left: 18px;
+}
+
+
+.template-paragraph {
+  font-family: 'Raleway';
+  font-size: 14px;        
+  line-height: 1.6;     
+  color: #1f2327;        
+  margin-right: 40px;  
+}
+
+
+.viewallimg,
+.site-link {
+  display: none;
+}
+
+
+.blog-footer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.blog-footer a {
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.blog-footer a:hover {
+  color: green;
+}
+
+
+
+
+.lawnmower-product-review,
+.fertilizer-product-review,
+.hedge-clippers-product-review {
+  position: relative;
+}
+
+
+.bages {
+  position: absolute;   
+  top: 16px;            
+  left: 16px;           
+  z-index: 2;           
+}
+
+
+
+
+.email-newsletter-invitation {
+  width: 1150px;
+  height: 425px;               
+  margin-left: 105px;          
+  padding: 60px 80px;            
+
+  background: url(images/baclground2.png);         
+  border-radius: 8px;           
+
+  display: flex;                
+  align-items: center;           
+  justify-content: space-between;
+}
+
+
+
+.newsletter-visual-area-img {
+  width: 500px;                 
+  height: 325px;                 
+  margin-bottom: 30px;
+  
+  display: block;               
+}
+
+
+.newsletter-message-area {
+  width: 520px;                  
+}
+
+
+
+.newsletter-visual-area-logo {
+  width: 60px;                   
+  height: 60px;
+  margin-bottom: 14px;          
+}
+
+
+
+.newsletter-message-logo {
+  width: 290px;
+  height: 35px;
+  font-family: 'Bitter';
+  font-size: 30px;              
+  font-weight: 400;              
+  margin-bottom: 16px;
+            
+}
+
+
+.email-newsletter-invitation .template-paragraph {
+  width: 498px;
+  height: 48px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.newsletter-registration {
+  display: grid;
+  width: fit-content;
+  row-gap: 12px;
+}
+
+.newsletter-registration input {
+  width: 500px;
+  height: 50px;
+  padding: 0 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.button-sumbit {
+  grid-row: 2;
+  width: 82px;
+  height: 50px;
+  background: #f4b400;
+  border: none;
+  padding-right: 3px;
+  margin-right: 420px;
+  border-radius: 6px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-sumbit:hover {
+  background: #e2a700;
+}
+
+.privacy-policy {
+  grid-row: 3;
+  margin-left: 3px;
+}
+
+.privacy-policy a {
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration: none;
+  color: grey;
+   
+}
+
+.privacy-policy a:hover {
+  
+  color:#178747
+}
+
+.additional-part {
+  width: 1440px;
+  height: 588px;
+  margin-top: 100px;
+  padding: 80px 145px;
+  background: #F7F9FA;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-info {
+  width: 340px;
+}
+
+.newsletter-logo {
+  width: 175px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.network-facebook,
+.network-twitter,
+.network-instagram {
+  size: 40;
+  width: 40px;
+  height: 40px;
+  margin-right: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.brand-info p {
+  margin-top: 12px;
+  color: black;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 400;
+  width: 306px;
+  height: 100px;
+}
+
+.recent-content {
+  width: 380px;
+}
+
+.content-heading {
+  font-family: 'Bitter';
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.content-item {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.content-thumbnail {
+  width: 150px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.content-item p {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(26, 26, 26);
+  margin-top: 24px;
+}
+
+.site-info {
+  width: 320px;
+}
+
+.search-data {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-query {
+  width: 274px;
+  height: 48px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  box-sizing: border-box;
+  
+}
+
+.search-action {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 48px;
+  border: 1px solid #ccc;
+  background: #768F9C;
+;
+  color: #FFFFFF;
+
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.info-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.info-links a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info-links a:hover {
+  color: #1f9d55;
+}
+
+
+
+
+
+
+
+.top-navigation {
+  
+  transition: box-shadow 0.3s ease;
+}
+
+.top-navigation:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+
+
+
+.site-logo {
+ 
+  transition: transform 0.3s ease;
+}
+
+.site-logo:hover {
+  transform: scale(1.05);
+}
+
+
+
+.navigation-link {
+ 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navigation-link:hover {
+  
+  transform: translateY(-2px);
+}
+
+.account-action {
+ 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.account-action:hover {
+  color: #1f9d55;
+  transform: translateY(-2px);
+}
+
+
+.affiliate-template-overview {
+  
+  transform: translateX(-40px);
+}
+
+.template-introduction {
+  
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.template-introduction:hover {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+  transform: translateY(-6px);
+}
+
+
+
+
+
+
+
+.template-purchase-action {
+ 
+  transition: 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-purchase-action:hover {
+  background: #178747;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(31,157,85,0.4);
+}
+
+
+.blog-section {
+
+  transform: translateX(-40px);
+}
+
+
+
+.blog-main img,
+.blog-side-item img {
+  transition: transform 0.4s ease;
+}
+
+.blog-main img:hover,
+.blog-side-item img:hover {
+  transform: scale(1.04);
+}
+
+.blog-side-item {
+
+  transition: transform 0.3s ease;
+}
+
+.blog-side-item:hover {
+  transform: translateX(6px);
+}
+
+
+.lawnmower-product-review,
+.fertilizer-product-review,
+.hedge-clippers-product-review {
+  
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.lawnmower-product-review:hover,
+.fertilizer-product-review:hover,
+.hedge-clippers-product-review:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+}
+
+
+.site-linke {
+  
+  transition:  0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.site-linke:hover {
+  background-color: #268a3b;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(47,158,68,0.4);
+}
+
+
+.email-newsletter-invitation {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.email-newsletter-invitation:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+}
+
+.newsletter-registration input {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.newsletter-registration input:focus {
+  border-color: #1f9d55;
+  box-shadow: 0 0 0 3px rgba(31,157,85,0.2);
+  outline: none;
+}
+
+.button-sumbit {
+  
+  transition:  0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-sumbit:hover {
+  background: #e2a700;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(244,180,0,0.5);
+}
+
+
+.additional-part {
+  transition: box-shadow 0.4s ease;
+}
+
+.additional-part:hover {
+  box-shadow: 0 -20px 50px rgba(0,0,0,0.08);
+}
+
+.network-facebook,
+.network-twitter,
+.network-instagram {
+  transition: transform 0.3s ease;
+}
+
+.network-facebook:hover,
+.network-twitter:hover,
+.network-instagram:hover {
+  transform: translateY(-4px) scale(1.1);
+}
+
+.info-links a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.info-links a:hover {
+  color: #1f9d55;
+  transform: translateX(6px);
+}
+
+
+
+
+
+.navigation-link,
+.account-action {
+  transition: color 0.3s ease;
+}
+
+.navigation-link:hover,
+.account-action:hover {
+  color: #1f9d55;
+}
+
+
+
+.lawncare-product-recommendations {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lawncare-product-recommendations:hover {
+  transform: scale(1.03);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+
+
+@media (max-width: 767px) {
+
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+
+  .navigation-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    flex-wrap: wrap;
+  }
+
+  .site-logo {
+    margin-left: 0;
+  }
+
+  .navigation-links {
+    margin-left: 0;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .account-action {
+    margin: 12px 0 0;
+  }
+
+  
+  .affiliate-template-overview,
+  .blog-section {
+    transform: none;
+  }
+
+  .template-introduction {
+    width: 95%;            
+    max-width: 400px;
+    height: auto;
+    padding: 24px 20px;
+  }
+
+  .ETAS {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .template-paragraphe,
+  .template-main-message,
+  .template-paragraphq {
+    margin: 0;
+    max-width: 100%;
+    font-size: 16px;      
+  }
+
+  .template-main-message {
+    font-size: 28px;       
+  }
+
+  button {
+    margin: 16px 0 0;
+  }
+
+  
+  .blog-container,
+  .blog-section,
+  .blog-layout {
+    width: 95%;            
+    margin: 0 auto;
+  }
+
+  .blog-layout {
+    flex-direction: column;
+  }
+
+  .blog-main,
+  .blog-side {
+    width: 100%;
+  }
+
+  .blog-main img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-side-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .blog-side-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .lawncare-product-recommendations {
+    width: 95%;
+    height: auto;
+    margin: 24px auto;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .lawncare-products-message {
+    font-size: 18px;
+  }
+
+  .site-linke {
+    width: 100%;
+    max-width: 120px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+ 
+  .product-review-updates {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+  }
+
+  .reviewed-product-list {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .lawnmower-product-review,
+  .fertilizer-product-review,
+  .hedge-clippers-product-review {
+    width: 100%;
+    height: auto;
+  }
+
+  .lawnmower-product-visual,
+  .fertilizer-product-visual,
+  .hedge-clippers-product-visual {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .email-newsletter-invitation {
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    margin: 32px auto;
+    padding: 24px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .newsletter-visual-area-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .newsletter-message-area {
+    width: 100%;
+    text-align: center;
+  }
+
+  .newsletter-message-area ,
+  .newsletter-message-area h2 {
+    font-size: 16px;      
+    line-height: 1.5;
+  }
+  .template-paragraph {
+    font-size: 16px;      
+    line-height: 1.5;
+  }
+
+  .newsletter-registration input {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .button-sumbit {
+    width: 100%;
+    max-width: 100px;
+    height: 45px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  
+  .additional-part {
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    padding: 30px 16px;
+    flex-direction: column;
+    gap: 24px;
+    margin: 60px auto 20px;
+  }
+
+  .brand-info,
+  .recent-content,
+  .site-info {
+    width: 100%;
+  }
+
+  .content-item {
+    flex-direction: column;
+  }
+
+  .content-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-item p {
+    font-size: 14px;
+  }
+
+  .search-query {
+    width: 100%;
+  }
+
+  .search-action {
+    width: 100%;
+  }
+
+  .info-links a {
+    font-size: 14px;
+  }
+}
+
+
+
